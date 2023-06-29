@@ -1,6 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
-import '@/App.css'
+import '../App.css'
 
 const Footer = () => {
   return (

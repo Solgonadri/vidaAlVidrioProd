@@ -1,6 +1,6 @@
 import React from "react";
-import '@/App.css'
-import Logo from '../../imgs/house-window-icon-free-vector.jpg'
+import '../App.css'
+import Logo from '../../public/imgs/house-window-icon-free-vector.jpg'
 import {Layout, Row, Col} from "antd"; //Se importan los componentes de ant desig
 import { SocialIcon } from 'react-social-icons'
 import './Header.scss'
