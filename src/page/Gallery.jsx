@@ -1,7 +1,7 @@
 import React from 'react'
-import '../App.css'
+//import './../App.css'
 import Carousel from 'better-react-carousel'
-import c1 from '../../public/imgs/Carrusel/c1.jpeg'
+/*import c1 from '../../public/imgs/Carrusel/c1.jpeg'
 import c2 from '../../public/imgs/Carrusel/c2.jpeg'
 import c3 from '../../public/imgs/Carrusel/c3.jpeg'
 import c4 from '../../public/imgs/Carrusel/c4.jpeg'
@@ -10,14 +10,12 @@ import c6 from '../../public/imgs/Carrusel/c6.jpeg'
 import c7 from '../../public/imgs/Carrusel/c7.jpeg'
 import c8 from '../../public/imgs/Carrusel/c8.jpeg'
 import c9 from '../../public/imgs/Carrusel/c9.jpeg'
-import c10 from '../../public/imgs/Carrusel/c10.jpeg'
+import c10 from '../../public/imgs/Carrusel/c10.jpeg'*/
 
 const Gallery = () => {
-  return (
-    <>
-      <div className='galleryContainer'>
-        <Carousel cols={2} rows={1} gap={10} loop>
-          <Carousel.Item>
+
+  /**
+   * <Carousel.Item>
             <img width='50%' src={c1} className='c1' />
           </Carousel.Item>
           <Carousel.Item>
@@ -46,6 +44,14 @@ const Gallery = () => {
           </Carousel.Item>
           <Carousel.Item>
             <img width='50%' src={c10} className='c10' />
+          </Carousel.Item>
+   */
+  return (
+    <>
+      <div className='galleryContainer'>
+        <Carousel cols={2} rows={1} gap={10} loop>
+          <Carousel.Item>
+            <img width='50%' src="./../../public/imgs/Carrusel/c10.jpeg" className='c10' />
           </Carousel.Item>
         </Carousel>
       </div>

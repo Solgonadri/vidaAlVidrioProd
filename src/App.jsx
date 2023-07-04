@@ -27,10 +27,10 @@ function App () {
               </div>
             </div>
             <div className='box-derecha'>
-              <img src='/imgs/WhatsApp Image 2022-10-28 at 21.39.00 (6).jpeg' className='img-section--1' alt='' />
+              <img src='./../public/imgs/WhatsApp Image 2022-10-28 at 21.39.00 (6).jpeg' className='img-section--1' alt='' />
             </div>
             <div className='box-izquierda'>
-              <img src='/imgs/pgn.img.03.jpeg' alt='' className='img-section--2' />
+              <img src='./../public/imgs/pgn.img.03.jpeg' alt='' className='img-section--2' />
             </div>
             <div className='textoTres'>
               <h3 className='textoDos'>Amplia variedad de Servicios</h3>
@@ -49,10 +49,10 @@ function App () {
               </p>
             </div>
             <div>
-              <img src='/imgs/pgn.img.04.jpeg' alt='' className='img-section--3' />
+              <img src='./../public/imgs/pgn.img.04.jpeg' alt='' className='img-section--3' />
             </div>
             <div>
-              <img src='/imgs/pgn.img.06.jpeg' alt='' className='img-section--4' />
+              <img src='./../public/imgs/pgn.img.06.jpeg' alt='' className='img-section--4' />
             </div>
             <div className='h5'>
               <h5 className='textoCinco'>Asesoría personlizada.</h5>
