@@ -1,4 +1,4 @@
-/* Estilos generales del carrusel */
+/* Estilos generales del carrusel 
 .carousel {
     position: relative;
   }
@@ -34,7 +34,7 @@
     transform: translateX(0);
   }
   
-  /* Controles del carrusel */
+   Controles del carrusel 
   .carousel-control {
     position: absolute;
     top: 0;
@@ -78,13 +78,13 @@
   .carousel-control-prev-icon {
     background-image: none; 
   }
-  /*//url('ruta/imagen/icono-anterior.png');
-  //url('ruta/imagen/icono-siguiente.png');*/
+  /url('ruta/imagen/icono-anterior.png');
+  //url('ruta/imagen/icono-siguiente.png');
   .carousel-control-next-icon {
     background-image: none; 
   }
   
-  /* Indicadores del carrusel */
+  Indicadores del carrusel 
   .carousel-indicators {
     position: absolute;
     bottom: 2%;
@@ -116,4 +116,76 @@
     opacity: 1;
   }
   
-  
+*/
+
+.custom-carousel .carousel .control-arrow {
+  background-color: #333;
+  color: #fff;
+}
+
+.custom-carousel .carousel .control-arrow:hover {
+  background-color: #555;
+}
+
+.container-c--1{
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: 160px;
+  left: 405px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c1{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c2{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c3{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c4{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c5{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c6{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c7{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c8{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c9{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.c10{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+

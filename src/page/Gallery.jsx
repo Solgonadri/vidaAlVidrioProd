@@ -54,8 +54,7 @@ const Gallery = () => {
           </Carousel.Item>
         </Carousel>
    */
-  return (
-    
+  /*
       <div className='galleryContainer'>
         <CCarousel controls indicators>
           <CCarouselItem>
@@ -90,7 +89,44 @@ const Gallery = () => {
           </CCarouselItem>
         </CCarousel>
       </div>
-    
+    */
+  return (
+    <>
+    <div className='container-c--1'>
+      <Carousel showArrows infiniteLoop className='custom-carousel'>
+        <div>
+          <img src={c1} alt='' className='' />
+        </div>
+        <div>
+          <img src={c2} alt='' />
+        </div>
+        <div>
+          <img src={c3} alt='' />
+        </div>
+        <div>
+          <img src={c4} alt='' />
+        </div>
+        <div>
+          <img src={c5} alt='' />
+        </div>
+        <div>
+          <img src={c6} alt='' />
+        </div>
+        <div>
+          <img src={c7} alt='' />
+        </div>
+        <div>
+          <img src={c8} alt='' />
+        </div>
+        <div>
+          <img src={c9} alt='' />
+        </div>
+        <div>
+          <img src={c10} alt='' />
+        </div>
+      </Carousel>
+    </div>
+  </>
   )
 }
 

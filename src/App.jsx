@@ -6,7 +6,7 @@ import img3 from './../public/imgs/pgn.img.04.jpeg'
 import img4 from './../public/imgs/pgn.img.06.jpeg'
 import Footer from './footer/Footer'
 import { SocialIcon } from 'react-social-icons'
-import Header from './header/Hader'
+import Header from './header/Header'
 import { Layout} from "antd";
 
 function App () {
