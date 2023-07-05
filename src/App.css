@@ -22,6 +22,12 @@ body {
   right: 150px;
 }
 
+.context-title{
+  position: relative;
+  right: 85px;
+  font-size: 30px;
+}
+
 .titulo-inicio{
   font-size: 30px;
   position: relative;
@@ -33,7 +39,7 @@ body {
   font-size: 25px;
   width: 200%;
   position: relative;
-  right: 70px;
+  right: 83px;
   top: 3px;
 }
 
