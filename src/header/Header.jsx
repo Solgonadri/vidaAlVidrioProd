@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import '../App.css'
 import Logo from '../../public/imgs/house-window-icon-free-vector.jpg'
 import {Layout, Row, Col} from "antd"; //Se importan los componentes de ant desig
