@@ -1,7 +1,7 @@
 import React from 'react'
 import './../App.css'
 import './Galery.css'
-//import Carousel from 'better-react-carousel'
+import {Layout, Row, Col} from "antd";
 import { CCarousel, CCarouselItem, CImage, CCarouselCaption } from '@coreui/react'
 import c1 from '../../public/imgs/Carrusel/c1.jpeg'
 import c2 from '../../public/imgs/Carrusel/c2.jpeg'
@@ -57,38 +57,43 @@ const Gallery = () => {
   return (
     
       <div className='galleryContainer'>
-        <CCarousel controls indicators>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c1}  width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c2} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c3} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c4} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c5} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c6} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c7} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c8} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c9} width='60%'/>
-          </CCarouselItem>
-          <CCarouselItem>
-            <CImage className="d-block w-100" src={c10} width='60%'/>
-          </CCarouselItem>
-        </CCarousel>
+        <Row>
+          <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
+            <CCarousel controls indicators>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c1}  width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c2} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c3} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c4} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c5} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c6} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c7} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c8} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c9} width='60%'/>
+              </CCarouselItem>
+              <CCarouselItem>
+                <CImage className="d-block w-100" src={c10} width='60%'/>
+              </CCarouselItem>
+            </CCarousel>
+          </Col>
+        </Row>
+        
       </div>
     
   )
