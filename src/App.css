@@ -1,5 +1,4 @@
 body {
-  overflow-x: hidden;
   overflow-y: scroll;
 }
 
@@ -82,6 +81,11 @@ header div{
   right: 20px;
 }
 
+.textoTres{
+  height: 0px;
+  width: 0px;
+}
+
 .parrafo{
   margin-left: 20px;
   font-family: sans-serif;
@@ -101,7 +105,6 @@ header div{
   padding: 0;
   width: 450px;
   height: 450px;
-  margin-right: 100%;
   border: 1px solid #ccc;
   border-radius: 10px;
   transform: translateY(-8%);
@@ -127,7 +130,7 @@ header div{
   width: 330px;
   height: 150px;
   position: relative;
-  top: 480px;
+  top: 340px;
   right: 598px;
   
 }
@@ -139,7 +142,7 @@ header div{
   font-size: 25px;
   color: grey;
   position: relative;
-  top: 455px;
+  top: 290px;
   right: 598px;
 }
 
@@ -190,6 +193,7 @@ header div{
 .h5{
   position: relative;
   left: 660px; 
+  width: 0px;
 }
 
 .textoCinco{
