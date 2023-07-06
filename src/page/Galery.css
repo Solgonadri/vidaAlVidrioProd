@@ -132,6 +132,7 @@
   height: 100px;
   position: relative;
   top: 160px;
+  right: 40px;
   border: 1px solid #ccc;
   border-radius: 10px;
 }

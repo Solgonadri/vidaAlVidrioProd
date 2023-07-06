@@ -1,13 +1,12 @@
-*body {
+body {
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 html{
   margin: auto;
   padding: auto;
 }
-
-
 
 
 *{
@@ -257,4 +256,8 @@ header div{
 .content{
   margin: auto;
   padding: auto;
+}
+
+#container-section{
+  margin-left: 100px;
 }
