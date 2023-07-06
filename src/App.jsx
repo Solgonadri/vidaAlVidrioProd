@@ -12,7 +12,7 @@ import { Layout} from "antd";
 function App () {
   const { Content } = Layout;
   return (
-    <Layout>
+    <Layout id='color-background'>
       <Content className="content" id='container-section'>
         <div className="div_login">
           <Header/>
@@ -49,7 +49,7 @@ function App () {
               <h4 className='textoCuatro'>Servicio de instalacion de alta Calidad</h4>
               <p className='parrafoCuatro'>Nos caracteriza el profesionalismo y la limpieza en la 
               instalación de nuestros productos para obtener mayor durabilidad y 
-              satisfacción para nuestros clientes.
+              satisfacción para nuestros
               </p>
             </div>
             <div>
