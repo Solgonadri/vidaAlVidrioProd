@@ -20,11 +20,11 @@ function App () {
             <div className='container'>
               <div className='txt-aling'>
                 <h2>EXPERTOS EN CANCELES, VIDRIOS Y VENTANAS.
-                  COMPRA, VENTA INSTALACION Y DISEÑO.
+                  COMPRA, VENTA INSTALACIÓN Y DISEÑO.
                 </h2>
               </div>
               <div className='parrafoUno'>
-                <p className='parrafo'>Decoracion y seguridad al maximo,
+                <p className='parrafo'>Decoracion y seguridad al máximo,
                   con los mejores productos
                   y servicios al cliente
                 </p>
@@ -44,12 +44,12 @@ function App () {
               </p>
             </div>
           </section>
-          <section id='seccion-2'>
+          <section id='section-2'>
             <div>
               <h4 className='textoCuatro'>Servicio de instalacion de alta Calidad</h4>
-              <p className='parrafoCuatro'>Nos aseguramos de que la instalación de nuestros
-                productos sea impecable, para que tengas la seguridad
-                de que durarán mucho tiempo.
+              <p className='parrafoCuatro'>Nos caracteriza el profesionalismo y la limpieza en la 
+              instalación de nuestros productos para obtener mayor durabilidad y 
+              satisfacción para nuestros clientes.
               </p>
             </div>
             <div>
@@ -60,8 +60,9 @@ function App () {
             </div>
             <div className='h5'>
               <h5 className='textoCinco'>Asesoría personlizada.</h5>
-              <p className='parrafoCinco'>Damos recomendaciones y sugerencias para que tomes la mejor decisión
-                al momento de eligir tus productos y ajustarnos a tus necesidades
+              <p className='parrafoCinco'>Contamos con un amplio catálogo de nuestros productos, 
+              así como con expertos que te pueden orientas a 
+              tomar la mejor decisión.
               </p>
             </div>
           </section>
