@@ -49,7 +49,7 @@ function App () {
               <h4 className='textoCuatro'>Servicio de instalacion de alta Calidad</h4>
               <p className='parrafoCuatro'>Nos caracteriza el profesionalismo y la limpieza en la 
               instalación de nuestros productos para obtener mayor durabilidad y 
-              satisfacción para nuestros
+              satisfacción para nuestros clientes.
               </p>
             </div>
             <div>
