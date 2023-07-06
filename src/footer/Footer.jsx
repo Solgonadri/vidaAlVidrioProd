@@ -6,7 +6,7 @@ import '../footer/footer.css'
 const Footer = () => {
   return (
     <>
-      <footer id='footer-f'>
+      <footer id='footer-f' className="content">
         <h1 className='finalTxt'>
           Obtén seguridad, estilo y elegancia con VidaAlvidrio
         </h1>

@@ -8,13 +8,13 @@ import './Header.scss'
 const Header = () => {
   const { Header } = Layout;
   return (
-        <Header id='header-context'>
+        <Header id='header-context' className="content">
           <Row>
             <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
               <div className="menu-top">
               <Row>
                 <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
-                  <img src={Logo} width='50px'  />
+                  <img src={Logo} width='50px' className='img-bajoSlogan' />
                 </Col>
                 <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                   <Row>

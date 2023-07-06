@@ -1,14 +1,29 @@
-body {
+*body {
   overflow-y: scroll;
 }
 
+html{
+  margin: auto;
+  padding: auto;
+}
+
+
+
 
 *{
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   text-decoration: none;
   box-sizing: border-box;
   align-items: center;
+}
+
+@media (max-width:574px){
+
+}
+
+@media (min-width: 574px) and (max-width: 767px){
+
 }
 
 #header-context{
@@ -64,8 +79,7 @@ header div{
   transition: background-color 0.3s ease;
 }
 
-#section-p{
-  width: 80%;
+#section-p{  
   max-width: 1200px;
   display: flex;
 }
@@ -214,8 +228,6 @@ header div{
 }
 
 
-
-
 .finalTxt{
   margin-bottom: 100px;
   padding: 0;
@@ -238,4 +250,11 @@ header div{
 #rc-imageselect{
   position: relative;
   left: 50%;
+}
+
+/*vamos a hacer el responsive*/
+
+.content{
+  margin: auto;
+  padding: auto;
 }
