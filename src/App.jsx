@@ -62,9 +62,9 @@ function App () {
               <img src={img4} alt='' className='img-section--4' />
             </div>
             <div className='h5'>
-              <h5 className='textoCinco'>Asesoría personlizada.</h5>
+              <h5 className='textoCinco'>Asesoría personalizada.</h5>
               <p className='parrafoCinco'>Contamos con un amplio catálogo de nuestros productos, 
-              así como con expertos que te pueden orientas a 
+              así como con expertos que te pueden orientar a 
               tomar la mejor decisión.
               </p>
             </div>
