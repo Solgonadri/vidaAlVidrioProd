@@ -8,19 +8,9 @@ import Footer from './footer/Footer'
 import { SocialIcon } from 'react-social-icons'
 import Header from './header/Header'
 import { Layout} from "antd";
-<<<<<<< HEAD
-import { titulo, parrafo1 } from './utils/Constants'
-
 import esES from 'antd/lib/locale/es_ES';
 import moment from 'moment';
 import 'moment/locale/es'
-
-moment.locale('es')
-=======
-import esES from 'antd/lib/locale/es_ES';
-import moment from 'moment';
-import 'moment/locale/es'
->>>>>>> 1d6cfb7d97bd6363ab93ec54366ee6bc035b1eea
 
 function App () {
   const { Content } = Layout;
@@ -32,22 +22,11 @@ function App () {
           <section id='section-p'>
             <div className='container'>
               <div className='txt-aling'>
-<<<<<<< HEAD
                 <h2>{titulo}</h2>
               </div>
               <div className='parrafoUno'>
                 <p className='parrafo'>
                   {parrafo1}
-=======
-                <h2>EXPERTOS EN CANCELES, VIDRIOS Y VENTANAS.
-                  COMPRA, VENTA, INSTALACIÓN Y DISEÑO.
-                </h2>
-              </div>
-              <div className='parrafoUno'>
-                <p className='parrafo'>Decoracion y seguridad al máximo,
-                  con los mejores productos
-                  y servicios al cliente
->>>>>>> 1d6cfb7d97bd6363ab93ec54366ee6bc035b1eea
                 </p>
               </div>
             </div>
