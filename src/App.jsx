@@ -8,6 +8,9 @@ import Footer from './footer/Footer'
 import { SocialIcon } from 'react-social-icons'
 import Header from './header/Header'
 import { Layout} from "antd";
+import esES from 'antd/lib/locale/es_ES';
+import moment from 'moment';
+import 'moment/locale/es'
 
 function App () {
   const { Content } = Layout;
@@ -20,7 +23,7 @@ function App () {
             <div className='container'>
               <div className='txt-aling'>
                 <h2>EXPERTOS EN CANCELES, VIDRIOS Y VENTANAS.
-                  COMPRA, VENTA INSTALACIÓN Y DISEÑO.
+                  COMPRA, VENTA, INSTALACIÓN Y DISEÑO.
                 </h2>
               </div>
               <div className='parrafoUno'>
