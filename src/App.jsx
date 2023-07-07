@@ -8,6 +8,7 @@ import Footer from './footer/Footer'
 import { SocialIcon } from 'react-social-icons'
 import Header from './header/Header'
 import { Layout} from "antd";
+import { titulo, parrafo1 } from './utils/Constants'
 import esES from 'antd/lib/locale/es_ES';
 import moment from 'moment';
 import 'moment/locale/es'
