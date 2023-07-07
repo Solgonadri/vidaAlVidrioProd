@@ -127,12 +127,12 @@
   background-color: #555;
 }
 
-.container-c--1{
+#container-c--1{
   width: 400px;
   height: 100px;
   position: relative;
   top: 160px;
-  left: 405px;
+  right: 15px;
   border: 1px solid #ccc;
   border-radius: 10px;
 }

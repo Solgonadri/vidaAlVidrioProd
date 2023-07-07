@@ -18,7 +18,7 @@ import c10 from '../../public/imgs/Carrusel/c10.jpeg'
 const Gallery = () => {
   return (
     <>
-      <div className='container-c--1'>
+      <div id='container-c--1' className="content">
         <Carousel showArrows infiniteLoop className='custom-carousel'>
           <div>
             <img src={c1} alt='' className='' />

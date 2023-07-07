@@ -8,6 +8,7 @@ import Footer from './footer/Footer'
 import { SocialIcon } from 'react-social-icons'
 import Header from './header/Header'
 import { Layout} from "antd";
+<<<<<<< HEAD
 import { titulo, parrafo1 } from './utils/Constants'
 
 import esES from 'antd/lib/locale/es_ES';
@@ -15,22 +16,38 @@ import moment from 'moment';
 import 'moment/locale/es'
 
 moment.locale('es')
+=======
+import esES from 'antd/lib/locale/es_ES';
+import moment from 'moment';
+import 'moment/locale/es'
+>>>>>>> 1d6cfb7d97bd6363ab93ec54366ee6bc035b1eea
 
 function App () {
   const { Content } = Layout;
   return (
-    <Layout>
-      <Content className="content">
+    <Layout id='color-background'>
+      <Content className="content" id='container-section'>
         <div className="div_login">
           <Header/>
           <section id='section-p'>
             <div className='container'>
               <div className='txt-aling'>
+<<<<<<< HEAD
                 <h2>{titulo}</h2>
               </div>
               <div className='parrafoUno'>
                 <p className='parrafo'>
                   {parrafo1}
+=======
+                <h2>EXPERTOS EN CANCELES, VIDRIOS Y VENTANAS.
+                  COMPRA, VENTA, INSTALACIÓN Y DISEÑO.
+                </h2>
+              </div>
+              <div className='parrafoUno'>
+                <p className='parrafo'>Decoracion y seguridad al máximo,
+                  con los mejores productos
+                  y servicios al cliente
+>>>>>>> 1d6cfb7d97bd6363ab93ec54366ee6bc035b1eea
                 </p>
               </div>
             </div>
@@ -48,12 +65,12 @@ function App () {
               </p>
             </div>
           </section>
-          <section id='seccion-2'>
+          <section id='section-2'>
             <div>
               <h4 className='textoCuatro'>Servicio de instalacion de alta Calidad</h4>
-              <p className='parrafoCuatro'>Nos aseguramos de que la instalación de nuestros
-                productos sea impecable, para que tengas la seguridad
-                de que durarán mucho tiempo.
+              <p className='parrafoCuatro'>Nos caracteriza el profesionalismo y la limpieza en la 
+              instalación de nuestros productos para obtener mayor durabilidad y 
+              satisfacción para nuestros clientes.
               </p>
             </div>
             <div>
@@ -63,9 +80,10 @@ function App () {
               <img src={img4} alt='' className='img-section--4' />
             </div>
             <div className='h5'>
-              <h5 className='textoCinco'>Asesoría personlizada.</h5>
-              <p className='parrafoCinco'>Damos recomendaciones y sugerencias para que tomes la mejor decisión
-                al momento de eligir tus productos y ajustarnos a tus necesidades
+              <h5 className='textoCinco'>Asesoría personalizada.</h5>
+              <p className='parrafoCinco'>Contamos con un amplio catálogo de nuestros productos, 
+              así como con expertos que te pueden orientar a 
+              tomar la mejor decisión.
               </p>
             </div>
           </section>
