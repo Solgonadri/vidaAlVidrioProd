@@ -1,0 +1,118 @@
+#footer-f{
+    margin-bottom: 680px;
+    position: relative;
+    top: 570px;
+    right: 70px;
+}
+footer{
+    margin-bottom: 125px;
+  }
+  
+  .logos-rs{
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+    right: 29px;
+  }
+  
+  .wps-2{
+    position: relative;
+    left: 637px;
+    top: 125px;
+    display: flex;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wps-2:hover{
+    background-color: rgba(74, 153, 78, 0.459);
+    color: #fff;
+  }
+  
+  .facebook-logo--f{
+    position: relative;
+    top: 125px;
+    left: 509px;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .facebook-logo--f:hover{
+    background-color: rgba(56, 89, 131, 0.356);
+    color: #fff;
+  }
+  
+  .twt{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 125px;
+    left: 380px;
+    display: flex;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .twt:hover{
+    background-color: rgba(32, 81, 94, 0.384);
+    color: #fff;
+  }
+  
+  .pppF{
+    margin: 10, 10, 10, 10px;
+    padding: 10, 10, 10, 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    position: relative;
+    left: 85px;
+    top: 0;
+    bottom: 50px;
+    color: gray;
+  }
+  
+  .ig{
+    position: relative;
+    top: 125px;
+    left: 562px;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ig:hover{
+    background-color: rgba(233, 31, 216, 0.548);
+    color: #fff;
+  }
+  
+  .ttk{
+    position: relative;
+    top: 125px;
+    left: 590px;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ttk:hover{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: #fff;
+  }
+  
+  .email-com{
+    position: relative;
+    top: 125px;
+    left: 620px;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-com:hover{
+    background-color: rgba(110, 109, 107, 0.384);
+    color: #fff;
+  }
